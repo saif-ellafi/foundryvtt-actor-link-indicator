@@ -1,0 +1,32 @@
+{
+  "name": "foundryvtt-actor-link-indicator",
+  "version": "0.0.1",
+  "description": "Adds a toggle button in Actor title bar to quickly toggle new tokens to be linked or not. Does not affect existing tokens.",
+  "main": "actor-link-indicator.js",
+  "scripts": {
+    "copy": "mkdir -p dist && cp ./actor-link-indicator.js dist/ && cp ./actor-link-indicator.css dist/ && cp ./README.md dist/ && cp ./CHANGELOG.md dist/ && cp ./LICENSE.md dist/ && cp ./module.json dist/ && cp ./THANKS.txt dist/",
+    "copyWin": "mkdir dist && copy module.json dist && copy actor-link-indicator.js dist && copy actor-link-indicator.css dist && copy README.md dist && copy CHANGELOG.md dist && copy LICENSE.md dist && copy module.json dist && copy THANKS.txt dist",
+    "zip": "npm-build-zip --source=dist --destination=.",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saif-ellafi/foundryvtt-mythic-gme.git"
+  },
+  "keywords": [
+    "foundry",
+    "vtt",
+    "productivity",
+    "controls",
+    "buttons"
+  ],
+  "author": "JeansenVaars (Saif Ellafi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saif-ellafi/foundryvtt-actor-link-indicator/issues"
+  },
+  "homepage": "https://github.com/saif-ellafi/foundryvtt-actor-link-indicator",
+  "devDependencies": {
+    "npm-build-zip": "^1.0.3"
+  }
+}

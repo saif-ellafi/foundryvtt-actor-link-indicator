@@ -1,0 +1,19 @@
+.convenient-link .fa-link {
+    color: darkorange;
+    text-shadow: 0 0 8px darkorange;
+}
+
+.convenient-link .fa-unlink {
+    color: brown;
+    text-shadow: 0 0 8px brown;
+}
+
+.convenient-link-highlight {
+    text-shadow: 0 0 4px darkorange;
+    color: darkorange;
+}
+
+.convenient-link-warning {
+    text-shadow: 0 0 4px brown;
+    color: brown;
+}
