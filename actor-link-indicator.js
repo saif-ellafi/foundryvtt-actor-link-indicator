@@ -1,5 +1,4 @@
 function convenientLinkToggle(html, actor) {
-    console.log(html);
     const isNowLinked = actor.actor.data.token.actorLink;
     const target = $(html.currentTarget);
     if (isNowLinked) {
@@ -11,20 +10,17 @@ function convenientLinkToggle(html, actor) {
 }
 
 async function convenientUnlinkToken(html, actor) {
-    console.log(html);
     const target = $(html.target);
     actor.token.update({'actorLink': false});
     target.html(target.html().replace('Linked', 'Unlinked'));
     const newToken = actor.token;
     await actor.close();
-    console.log(newToken);
     newToken.actor.sheet.render(true);
 }
 
 Hooks.on('ready', function() {
     if (game.user.isGM) {
         Hooks.on('getActorSheetHeaderButtons', function (actor, buttons) {
-            console.log(actor);
             if (!actor.token) {
                 const isUnique = actor.actor.data.token.actorLink;
                 const toggleLinkButton = {
