@@ -24,6 +24,11 @@ and allows to conveniently take care of that without having to go into token pro
 regret it later for overlooking the setting. When opening Actors, it will clearly indicate whether future tokens of this
 Actor will be linked or not.
 
+## Disclaimer
+
+This module does not introduce any new functionalities to Foundry. It is purely a convenient shortcut in the User Interface.
+It uses native Foundry VTT methods, for which the only updated data in the actors is the "Actor Link" Prototye Token setting. 
+
 ## Features
 
 **Indicators:**
