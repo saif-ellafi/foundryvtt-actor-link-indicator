@@ -1,6 +1,6 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/saif-ellafi/foundryvtt-actor-link-indicator/total?logo=GitHub) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/saif-ellafi/foundryvtt-actor-link-indicator/latest/total) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/saif-ellafi/foundryvtt-actor-link-indicator) ![GitHub issues](https://img.shields.io/github/issues-raw/saif-ellafi/foundryvtt-actor-link-indicator) ![GitHub](https://img.shields.io/github/license/saif-ellafi/foundryvtt-actor-link-indicator)
 # Actor Link Indicator for Foundry VTT
-### _Created by: JeansenVaars_
+### _Created by: JeansenVaars_ - [Invite me a coffee if you find this useful :D](https://ko-fi.com/V7V14D3AH)
 
 Stop forgetting to link/unlink tokens from actors! Adds an easy to observe, toggle indicator in sheet titles to quickly
 switch and identify whether actors produce linked tokens or unlinked prototype tokens, or whether concrete
@@ -11,8 +11,6 @@ _Theoretically System Agnostic!_
 ![Example](img.png)
 
 **Recommended Together with [Window Controls](https://github.com/saif-ellafi/foundryvtt-window-controls)**
-
-[Invite me a coffee if you find this useful :D](https://ko-fi.com/V7V14D3AH)
 
 ## Why this module
 
