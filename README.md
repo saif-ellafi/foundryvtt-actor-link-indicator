@@ -6,7 +6,8 @@ Stop forgetting to link/unlink tokens from actors! Adds an easy to observe, togg
 switch and identify whether actors produce linked tokens or unlinked prototype tokens, or whether concrete
 Tokens are currently linked to their Actor or not.
 
-_Theoretically System Agnostic!_
+#### [This module was made for free, with joy, long nights and because actors needed it, so tons of coffee :D!](https://ko-fi.com/jeansenvaars)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V14D3AH)
 
 ![Example](img.png)
 
