@@ -5,9 +5,9 @@
 	"description": "Adds an easy to observe, toggle button in Actor titles to quickly switch and recognize token link modes",
 	"version": "0.1.0",
 	"compatibility": {
-		"minimum": 10,
+		"minimum": "10",
 		"verified": "10.284",
-		"maximum": 10
+		"maximum": "10"
 	},
 	"esmodules": [ "actor-link-indicator.js" ],
 	"styles": [ "actor-link-indicator.css" ],
