@@ -1,5 +1,5 @@
 function convenientLinkToggle(html, actor) {
-    const isNowLinked = actor.actor.data.token.actorLink;
+    const isNowLinked = actor.actor.prototypeToken.actorLink;
     const target = $(html.currentTarget);
     if (isNowLinked) {
         target.html(target.html().replace('fa-link', 'fa-unlink'));
@@ -22,7 +22,7 @@ Hooks.on('ready', function() {
     if (game.user.isGM) {
         Hooks.on('getActorSheetHeaderButtons', function (actor, buttons) {
             if (!actor.token) {
-                const isUnique = actor.actor.data.token.actorLink;
+                const isUnique = actor.actor.prototypeToken.actorLink;
                 const toggleLinkButton = {
                     label: "",
                     class: "convenient-link",
@@ -30,7 +30,7 @@ Hooks.on('ready', function() {
                     onclick: (html) => convenientLinkToggle(html, actor)
                 };
                 buttons.unshift(toggleLinkButton);
-            } else if (actor.token.isLinked === true) {
+            } else if (actor.token.actorLink === true) {
                 const toggleLinkButton = {
                     label: "",
                     class: "convenient-link-highlight",
@@ -38,7 +38,7 @@ Hooks.on('ready', function() {
                     onclick: (html) => convenientUnlinkToken(html, actor)
                 };
                 buttons.unshift(toggleLinkButton);
-            } else if (actor.token.isLinked === false) {
+            } else if (actor.token.actorLink === false) {
                 const toggleUnlinkedPlaceholder = {
                     label: "",
                     class: "convenient-link-warning",
