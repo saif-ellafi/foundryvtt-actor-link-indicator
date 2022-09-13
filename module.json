@@ -9,6 +9,7 @@
 		"verified": "10.284",
 		"maximum": "10"
 	},
+	"minimumCoreVersion": "10",
 	"esmodules": [ "actor-link-indicator.js" ],
 	"styles": [ "actor-link-indicator.css" ],
 	"url": "https://github.com/saif-ellafi/foundryvtt-actor-link-indicator.git",
