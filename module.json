@@ -1,13 +1,13 @@
 {
-	"name": "actor-link-indicator",
+	"id": "actor-link-indicator",
 	"title": "Actor Link Indicator",
 	"author": "JeansenVaars#2857",
 	"description": "Adds an easy to observe, toggle button in Actor titles to quickly switch and recognize token link modes",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"compatibility": {
 		"minimum": "10",
-		"verified": "10.284",
-		"maximum": "10"
+		"verified": "11.302",
+		"maximum": "11"
 	},
 	"minimumCoreVersion": "10",
 	"esmodules": [ "actor-link-indicator.js" ],
@@ -16,5 +16,5 @@
 	"manifest": "https://github.com/saif-ellafi/foundryvtt-actor-link-indicator/releases/latest/download/module.json",
 	"readme": "https://github.com/saif-ellafi/foundryvtt-actor-link-indicator/blob/main/README.md",
 	"changelog": "https://github.com/saif-ellafi/foundryvtt-actor-link-indicator/blob/main/CHANGELOG.md",
-	"download": "https://github.com/saif-ellafi/foundryvtt-actor-link-indicator/releases/download/0.1.0/foundryvtt-actor-link-indicator_0.1.0.zip"
+	"download": "https://github.com/saif-ellafi/foundryvtt-actor-link-indicator/releases/download/0.2.0/foundryvtt-actor-link-indicator_0.2.0.zip"
 }
