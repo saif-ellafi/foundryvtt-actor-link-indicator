@@ -1,6 +1,6 @@
 {
   "name": "foundryvtt-actor-link-indicator",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Adds a toggle button in Actor title bar to quickly toggle new tokens to be linked or not. Does not affect existing tokens.",
   "main": "actor-link-indicator.js",
   "scripts": {
